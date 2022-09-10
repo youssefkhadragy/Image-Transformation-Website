@@ -1,0 +1,25 @@
+
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container{
+    text-align: center;
+    font-size: large;
+  }
+  .red{
+    color: red;
+  }
+  .green{
+    color: lightgreen;
+  }
+  .yellow{
+    color: darkgoldenrod;
+  }
